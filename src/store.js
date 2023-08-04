@@ -4,7 +4,7 @@ import MissionsReducer from './redux/Missions/MissionsSlice';
 
 const store = configureStore({
   reducer: {
-    rocket: rocketReducer,
+    rockets: rocketReducer,
     data: MissionsReducer,
   },
 });

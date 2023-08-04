@@ -76,3 +76,41 @@ table tr:hover { background-color: #ddd; }
   border: none;
   padding: 0.5vh 0.2vw;
 }
+
+.nav-bar {
+  border-bottom: 3px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.main-heading {
+  width: 32%;
+  height: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks {
+  list-style: none;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  margin-right: 24px;
+  font-weight: 500;
+  font-size: large;
+}
+
+.logo {
+  width: 4vw;
+  height: 4vw;
+}
+
+.navlinks li .link {
+  text-decoration: none;
+  padding: 6px;
+  border-right: black;
+}
