@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component matches the snapshot 1`] = `
+<nav
+  className="nav-bar"
+>
+  <img
+    alt="Logo"
+    className="logo"
+    src="space.png"
+  />
+  <h1
+    className="main-heading"
+  >
+    Space Hub
+  </h1>
+  <ul
+    className="navlinks"
+  >
+    <li>
+      <a
+        activeClassName="active-link"
+        aria-current="page"
+        className="link active"
+        exact={true}
+        href="/"
+        onClick={[Function]}
+      >
+        Rockets
+      </a>
+    </li>
+    <li>
+      <a
+        activeClassName="active-link"
+        className="link"
+        exact={true}
+        href="/missions"
+        onClick={[Function]}
+      >
+        Missions
+      </a>
+    </li>
+    <li>
+      <a
+        activeClassName="active-link"
+        className="link"
+        exact={true}
+        href="/myprofile"
+        onClick={[Function]}
+      >
+        My Profile
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
