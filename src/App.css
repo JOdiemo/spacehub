@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+}
+
+table th:nth-child(2) { width: 60%; }
+table tr:nth-child(even) { background-color: #e7e7e7; }
+
+table tr:hover { background-color: #ddd; }
+
+.tag {
+  width: 98%;
+  cursor: pointer;
+  display: flex;
+  padding: 0.5vh 0.5vw;
+  margin: auto;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8vw;
+  background-color: darkcyan;
+}
+
+.not-member {
+  width: 98%;
+  cursor: pointer;
+  display: flex;
+  padding: 0.5vh 0.5vw;
+  margin: auto;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8vw;
+  background-color: rgb(100, 100, 100);
+}
+
+.member-btn {
+  border: 1px solid gray;
+  background-color: transparent;
+  padding: 0.5vh 0.5vw;
+}
+
+.leave {
+  color: red;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 0.5vh 0.2vw;
+}
+
+.join {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 0.5vh 0.2vw;
+}
+
+.nav-bar {
+  border-bottom: 3px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.main-heading {
+  width: 32%;
+  height: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks {
+  list-style: none;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  margin-right: 24px;
+  font-weight: 500;
+  font-size: large;
+}
+
+.logo {
+  width: 4vw;
+  height: 4vw;
+}
+
+.navlinks li .link {
+  text-decoration: none;
+  padding: 6px;
+  border-right: black;
+}

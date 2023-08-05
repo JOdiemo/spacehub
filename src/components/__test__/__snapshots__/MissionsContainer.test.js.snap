@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionsContainer should match the snapshot 1`] = `
+<div
+  className="table-container"
+>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Mission Name
+        </th>
+        <th>
+          Mission Description
+        </th>
+        <th>
+          Status
+        </th>
+        <th />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Mission 1
+        </td>
+        <td>
+          Description 1
+        </td>
+        <td>
+          <div
+            className="tag"
+          >
+            Active Member
+          </div>
+        </td>
+        <td>
+          <button
+            onClick={[Function]}
+            type="button"
+          >
+            <button
+              className="leave"
+              type="button"
+            >
+              Leave Mission
+            </button>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Mission 2
+        </td>
+        <td>
+          Description 2
+        </td>
+        <td>
+          <div
+            className="not-member"
+          >
+            Not a Member
+          </div>
+        </td>
+        <td>
+          <button
+            onClick={[Function]}
+            type="button"
+          >
+            <button
+              className="join"
+              type="button"
+            >
+              Join Mission
+            </button>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
