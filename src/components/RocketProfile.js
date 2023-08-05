@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux';
 
 const RocketProfile = () => {
   const rocketProfile = useSelector((state) => state.rockets);
-  console.log(rocketProfile);
   const reservedRockets = rocketProfile.filter((rocket) => rocket.reserved);
   const displayRockets = reservedRockets.map((rocket) => (
     <li key={rocket.id}>{rocket.name}</li>

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Porfile component matches the snapshot 1`] = `
+<div
+  className="prof-container"
+>
+  <div
+    className="rocketprofile"
+  >
+    <h3
+      className="profile-title"
+    >
+      My Rockets
+    </h3>
+    <div>
+      <ul
+        className="items"
+      />
+    </div>
+  </div>
+  <div
+    className="missionprofile"
+  >
+    <h3
+      className="profile-title"
+    >
+      My Missions
+    </h3>
+    <div>
+      <ul
+        className="items"
+      />
+    </div>
+  </div>
+</div>
+`;

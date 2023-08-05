@@ -3,14 +3,14 @@ import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import store from '../../store';
-import RocketContainer from '../RocketContainer';
+import MyProfileContainer from '../MyProfileContainer';
 
-describe('Navbar component', () => {
+describe('Porfile component', () => {
   it('matches the snapshot', () => {
     const tree = renderer.create(
       <Provider store={store}>
         <Router>
-          <RocketContainer />
+          <MyProfileContainer />
         </Router>
       </Provider>,
     );
