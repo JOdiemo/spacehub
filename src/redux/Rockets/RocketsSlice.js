@@ -20,7 +20,7 @@ export const cancelReservation = (id) => ({
 export const rocketsFetch = (data) => {
   const rockets = data.map((rocket) => ({
     id: rocket.id,
-    name: rocket.rocket_name,
+    name: rocket.name,
     description: rocket.description,
     flickr_images: rocket.flickr_images,
   }));
