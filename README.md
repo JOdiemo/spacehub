@@ -126,7 +126,7 @@ In order to run this project you need:
 
 ```sh
  1 . Set up React dependencies
- 2 . Node ls
+ 2 . Node js
 ```
  -->
 
@@ -200,9 +200,8 @@ Example:
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Developer-Kingz](https://github.com/Developer-Kingz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kingsley-igbor/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

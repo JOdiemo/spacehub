@@ -18,7 +18,7 @@ const fetchData = createAsyncThunk('data/fetchData', async () => {
   }
 });
 
-const MissionsSlice = createSlice({
+export const MissionsSlice = createSlice({
   name: 'data',
   initialState,
   reducers: {
