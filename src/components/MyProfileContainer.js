@@ -1,3 +1,4 @@
+import MissionsProfile from './MissionsProfile';
 import RocketProfile from './RocketProfile';
 
 const MyProfileContainer = () => (
@@ -8,7 +9,7 @@ const MyProfileContainer = () => (
     </div>
     <div className="missionprofile">
       <h3 className="profile-title">My Missions</h3>
-      <RocketProfile />
+      <MissionsProfile />
     </div>
   </div>
 );
