@@ -106,7 +106,7 @@ For more information on the importance of a professional README for your reposit
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://github.com/JOdiemo/spacehub)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +148,7 @@ Install this project with:
 
 
 ```sh
-  cd mspacehub
+  cd spacehub
   gem install
 ```
 --->
@@ -222,7 +222,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/JOdiemo/spacehub/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
