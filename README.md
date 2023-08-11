@@ -106,7 +106,7 @@ For more information on the importance of a professional README for your reposit
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://github.com/JOdiemo/spacehub)
+- [Live Demo Link](https://space-travellers-hub-nmnt.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
